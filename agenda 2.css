@@ -1,0 +1,65 @@
+table{
+    border-collapse: collapse;
+  background-color: rgb(47, 187, 223);
+  }
+  
+  th, td{
+    border: 1px solid black;
+    padding: 10px;
+    size: 10ch;
+  }
+
+  .sd{
+    background-color: rgb(109, 109, 233) 
+}
+tr{
+  list-style: none;
+  
+}
+a:hover {
+  background: yellow;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color:blue;
+ 
+}
+body{
+  background-color: cornsilk;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+.formation{
+  display: flex;
+  justify-content: center;
+}
+h2, h3,h4,h5{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+			}
+.heure{
+  display: flex;
+  justify-content: center;
+}
+.date{
+  display: flex;
+  justify-content: center;
+
+}
+.recurrence{
+  display: flex;
+  justify-content: center;
+
+}
+.agenda{
+  display: flex;
+  justify-content: center;
+}
