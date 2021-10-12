@@ -4,18 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="agenda.css">
+    <link rel="stylesheet" href="agenda 2.css">
     <title>Document</title>
     <style>
-        form {
-            /* Just to center the form on the page */
-            margin: 0 auto;
-            width: 400px;
-            /* To see the outline of the form */
-            padding: 1em;
-            border: 1px solid #ccc;
-            border-radius: 1em;
-        }
+        
     </style>
 </head>
 <body>
@@ -30,19 +22,29 @@
             <option>rendez-vous Médical</option>
         </select></br>
     </div>
-        <h3>heure :</h3>
+        <h3>Heure :</h3>
         <div class="heure">
         <input type="time" id="appt" name="appt"
         min="00:00" max="23:00" required><br>
         </div>
         
-        <h4>date :</h4>
+        <h4>Date :</h4>
         <div class="date">
         <th><input type="date" id="start" name="trip-start"
         value="2018-07-22"
         min="2021-01-01" max="2022-01-01"></th></br>
     </div>
-    <h5>Recurrence :</h5>
+
+    <h5>Jour entier</h5>
+    <div class="date">
+   
+        <select name="formation" id="sexe">
+                    <option>Oui</option>
+                    <option>Non</option>
+                    
+                </select>
+    </div>
+    <h6>Recurrence :</h6>
 <div class="recurrence">
     <select name="recurrence" id="recurrence">
         <option>Jamais</option>

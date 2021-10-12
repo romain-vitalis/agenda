@@ -16,6 +16,7 @@ tr{
   list-style: none;
   
 }
+/*survolage*/
 a:hover {
   background: yellow;
 }
@@ -26,7 +27,7 @@ h1{
  
 }
 body{
-  background-color: cornsilk;
+  background-color: rgb(47, 187, 223); 
 }
 p{
   display: flex;
@@ -36,7 +37,8 @@ p{
   display: flex;
   justify-content: center;
 }
-h2, h3,h4,h5{
+
+h2, h3,h4,h5,h6{
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -59,7 +61,22 @@ h2, h3,h4,h5{
   justify-content: center;
 
 }
+
 .agenda{
   display: flex;
   justify-content: center;
 }
+/*bordures*/
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+tr.reveil{
+background-color: red;
+}
+
+  
