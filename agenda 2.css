@@ -1,6 +1,11 @@
 table{
     border-collapse: collapse;
-  background-color: rgb(47, 187, 223);
+  background-color:white;
+  font-size:120%;
+  font-weight: 200;
+  border-style:solid ;
+  border-color:black ;
+  font-family: Arial, Helvetica, sans-serif;
   }
   
   th, td{
@@ -9,8 +14,9 @@ table{
     size: 10ch;
   }
 
+
   .sd{
-    background-color: rgb(109, 109, 233) 
+    background-color: rgb(202, 113, 78) 
 }
 tr{
   list-style: none;
@@ -27,8 +33,13 @@ h1{
  
 }
 body{
-  background-color: rgb(47, 187, 223); 
+ background-color: black;
 }
+body.body1{
+  background-color: rgb(113, 113, 223);
+ }
+ 
+
 p{
   display: flex;
   justify-content: center;
@@ -79,4 +90,3 @@ tr.reveil{
 background-color: red;
 }
 
-  
